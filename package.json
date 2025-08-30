@@ -19,7 +19,7 @@
   },
 
   "scripts": {
-    "build": "npx tsgo",
+    "build": "npx tsc",
     "devCrawler": "node ./dist/test.js"
   }
 }
