@@ -6,3 +6,4 @@ temp
 *.map
 *.d.ts
 /tsconfig.tsbuildinfo
+/.turbo/turbo-build.log
