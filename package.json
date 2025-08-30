@@ -1,0 +1,25 @@
+{
+  "name": "jopi-crawler-tests",
+  "private": "true",
+
+  "engines": {
+    "bun": "^1.2.18",
+    "node": ">=22.18.0"
+  },
+
+  "main": "dist/test.js",
+  "types": "dist/test.d.ts",
+  "type": "module",
+
+  "devDependencies": {
+    "@types/bun": "^1.2.13"
+  },
+  "dependencies": {
+    "jopi-crawler": "workspace:*"
+  },
+
+  "scripts": {
+    "build": "npx tsgo",
+    "devCrawler": "node ./dist/test.js"
+  }
+}
