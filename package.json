@@ -15,7 +15,7 @@
     "@types/bun": "^1.2.13"
   },
   "dependencies": {
-    "jopi-crawler": "workspace:^1.0.14"
+    "jopi-crawler": "workspace:^1.0.4"
   },
 
   "scripts": {
